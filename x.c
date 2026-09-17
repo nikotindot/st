@@ -220,7 +220,7 @@ static DC dc;
 static XWindow xw;
 static XSelection xsel;
 static TermWindow win;
-
+static float alpha = 0.8;
 /* Font Ring Cache */
 enum {
 	FRC_NORMAL,
